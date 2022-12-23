@@ -12,7 +12,7 @@ st.title('Streamlit Demo')
 choice = st.sidebar.selectbox('Select',['Overall','Startup','Investor'])
 
 if choice == 'Startup':
-    selected_startup = st.sidebar.selectbox('Select Startup',['ola','uber'])
+    selected_startup = st.sidebar.selectbox('Select Startup',['ola','uber','microsoft'])
     btn1 = st.sidebar.button('View Details')
     if btn1:
         st.write('Hello')
